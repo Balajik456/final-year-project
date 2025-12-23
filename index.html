@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>District Tournament Portal</title>
+    <link rel="stylesheet" href="style.css" />
+     <style> 
+     .foot{
+      display: flex;
+      flex-direction: column;
+      
+     }
+     </style>
+
+
+  </head>
+  <body>
+    <header>🏏 District Sports Tournament Portal</header>
+
+    <div class="container">
+      <h2>Welcome Players & Organizers</h2>
+      <p>
+        Find district-level tournaments, register teams, and view competitors
+        easily.
+      </p>
+
+      <button onclick="goAdmin()">Admin Login</button>
+      <button onclick="goTournaments()">View Tournaments</button>
+      <button onclick="goViewTeams()">View Teams</button>
+      <button onclick="window.location.href='sports.html'">
+        Sports Gallery
+      </button>
+    </div>
+
+    <footer class="foot" >© 2025 District Sports Committee</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
