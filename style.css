@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  margin: 0;
+  padding: 0;
+  color: #fff;
+   
+}
+
+/* Header */
+header {
+  background: #111;
+  padding: 15px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* Container */
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* Buttons */
+button {
+  padding: 12px 22px;
+  margin: 8px;
+  background: #ff9800;
+  color: #000;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  align-items: end;
+}
+
+button:hover {
+  background: #ffc107;
+}
+
+/* Inputs */
+input {
+  padding: 12px;
+  width: 260px;
+  margin: 6px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* Cards */
+.card {
+  background: #ffffff;
+  color: #000;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 320px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.4);
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Images */
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  margin-top: auto;          /* pushes footer to bottom */
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
